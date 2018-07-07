@@ -16,9 +16,9 @@ En Prototipado se encuentran los documentos en los cuales se basó la diagramaci
 En Perfil Hoja de Vida se encuentra todo el conjunto de archivos realizados para mostrar un Curriculum Vitae
 basado en HTML5 y CSS. 
 
-## Diseño ModulosDesk
+## Replica ModulosDesk
 
-En Diseño ModulosDesk se encuentra la réplica del diseño FrontEnd de la página Web asignada en la tarea de
+En Replica ModulosDesk se encuentra la réplica del diseño FrontEnd de la página Web asignada en la tarea de
 la segunda semana. Incluye imágenes, SCSS, y HTML5. 
 
 ## Actividad del Gol
