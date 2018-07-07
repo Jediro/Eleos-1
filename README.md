@@ -29,8 +29,7 @@ una anotación en una cancha utilizando estados y keyframes de CSS.
 ## Mostrar Partidos 
 
 En Mostrar Partidos se encuentra el desarrollo a la actividad de mostrar los partidos del mundial disponiendo  
-de un JSON con toda la información de los equipos y un API [Country Flags API](http://countryflags.io/),  
-utilizando AngularJS y ECMAScript.
+de un JSON con toda la información de los equipos y un API [Country Flags API](http://countryflags.io/), utilizando AngularJS y ECMAScript.
 
 ___
 
