@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+.main {    
+    background-color: #EDEDED;
+    margin-left: 5%       
+}
+
+.bluesep {
+    background-color: #4587BD;    
+    height: 50px;
+    margin-left: 5%  
+}
+
+.bluesep2 {
+    background-color: #4587BD;    
+    height: 25px;
+    margin-left: 5%  
+}
+
+.bluefoot {
+    background-color: #4587BD;
+    height: 150px;    
+    margin-left: 5%  
+}
+
+.maintext {
+    color: #124475;
+    font-size: 2.4em;
+    font-family: 'Open Sans', sans-serif;
+    margin: 4px;
+    padding: 4px; 
+}
+
+.paragraphtext {
+    color: #3362A5;
+    font-size: 1em;
+    font-family: 'Open Sans', sans-serif;    
+    vertical-align: middle; 
+    margin: 4px; 
+    padding: 4px;
+}
+
+.paragraph {    
+    background-color: #EDEDED; 
+    width: 73%;    
+    margin-left: 5%      
+}
+
+.paragraph2 {    
+    background-color: #EDEDED;         
+    margin-left: 5%;  
+    margin-right: 10%;    
+}
+
+.intro {
+    margin-top: 5%;
+    width:73%;
+}
+
+.desc {
+    margin-right: 10%;
+}
+
+
+body {
+    background-image: url("../img/gradient_bg.jpg");
+}
+
+.paralist {
+    list-style-type: none;
+    padding: 4px;
+    margin: 4px 0;
+}
+
+
+#firstsep {
+    width: 73%;
+}
+
+.secondsep {
+    margin-top: 4px;
+    width: 85%;
+}
+
+.contact_info {
+    color: #EEE;
+    font-size: 1.2em;
+    padding: 45px 0;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif; 
+}
+
+#first {
+    margin-top: 12px;   
+    margin-bottom: 12px; 
+}
+
+#profile {
+    float: right;
+    margin-right: 10%;
+}

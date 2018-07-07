@@ -1,0 +1,98 @@
+
+$color-fondo: #EDEDED;
+$color-separador: #4587BD;
+
+$texto-oscuro: #124475;
+$texto-medio: #3362A5;
+$texto-claro: #EEE;
+
+$texto-grande: 2.4em;
+$texto-normal: 1.2em;
+$texto-menor: 1em;
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+@mixin separador($height) {
+    background-color: $color-separador;    
+    height: $height;
+    margin-left: 5%  
+}
+
+@mixin texto($color, $size) {
+    color: $color;
+    font-size: $size;
+    font-family: 'Open Sans', sans-serif;
+    margin: 4px;
+    padding: 4px;     
+}
+
+%paragraph {
+    margin-left: 5%;
+    background-color: $color-fondo;
+}
+
+#sep1 {
+    @include separador(50px);
+}
+
+.sep2 {
+    @include separador(25px);
+}
+
+#sep3 {
+    @include separador(150px);
+}
+
+#main {
+    @extend %paragraph;
+    margin-top: 5%;
+    width:73%;
+    margin-right: 10%;
+}
+
+#main2 {
+    @extend %paragraph;    
+    margin-right: 10%;
+}
+
+#par1 {
+    @extend %paragraph;
+    width: 73%;
+}
+
+#par2 {
+    @extend %paragraph;
+    margin-right: 10%;
+}
+
+#maintext {
+    @include texto($texto-oscuro, $texto-grande);
+}
+
+#maintext2 {
+    @include texto($texto-oscuro, $texto-grande);
+}
+
+#paratext {
+    @include texto($texto-medio, $texto-menor);
+}
+
+#contacttext {
+    @include texto($texto-claro, $texto-normal);
+}
+
+#paralist {
+    @include texto($texto-medio, $texto-menor);
+    list-style-type: none;
+    padding: 4px;
+    margin: 4px 0;
+}
+
+body {
+    background-image: url("../img/gradient_bg.jpg");
+}
+
+#profile {
+    float: right;
+    margin-right: 10%;
+}
