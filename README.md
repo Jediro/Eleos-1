@@ -31,6 +31,10 @@ una anotación en una cancha utilizando estados y keyframes de CSS.
 En Mostrar Partidos se encuentra el desarrollo a la actividad de mostrar los partidos del mundial disponiendo  
 de un JSON con toda la información de los equipos y un API ([Country Flags API](http://countryflags.io/)), utilizando AngularJS y ECMAScript.
 
+## Tarea Ionic
+
+En Tarea Ionic se encuentra el desarrollo de una app básica con alertas en Ionic, utilizando Angular, TypeScript y HTML + Sass.
+
 ___
 
 Y otras actividades a futuro. 
