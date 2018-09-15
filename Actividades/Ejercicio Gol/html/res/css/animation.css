@@ -1,0 +1,117 @@
+
+@keyframes ball_roll {
+
+    0% {
+        top: 250px;
+        left: 100px;      
+        background-size: 320px;
+        padding: 40px;
+        border-radius: 40px;
+        animation-timing-function: linear;
+    }
+
+    10% {
+        top: 500px;
+        left: 100px;      
+        background-size: 320px;
+        padding: 40px;
+        border-radius: 40px;
+        animation-timing-function: ease-out;
+    }
+
+    20% {
+        top: 350px;
+        left: 100px;      
+        background-size: 320px;
+        padding: 40px;
+        border-radius: 40px;
+        animation-timing-function: linear;
+    }
+
+    30% {
+        top: 500px;
+        left: 100px;      
+        background-size: 320px;
+        padding: 40px;
+        border-radius: 40px;
+        animation-timing-function: ease-out;
+    }
+
+    40% {
+        top: 400px;
+        left: 100px;      
+        background-size: 320px;
+        padding: 40px;
+        border-radius: 40px;
+        animation-timing-function: linear;
+    }
+
+    50%, 80% {
+        top: 500px;
+        left: 100px;      
+        background-size: 320px;
+        padding: 40px;
+        border-radius: 40px;      
+    }      
+
+    100% {
+        top: 150px;
+        left: 300px;
+        position: absolute;
+        padding: 10px;
+        background-size: 120px;
+        border-radius: 10px;
+    }
+}
+
+#anim_div {
+    width: 100px;
+    height: 100px;
+    background-color: black;
+}
+
+.whitebar {
+    background-color: #DEDED0;
+}
+
+.grass {
+    padding:20px;
+    background-image: url("../img/grass.jpg");
+    height:500px;
+    width:400px;    
+}
+
+#ball {
+    border-radius: 40px;
+    padding: 40px;
+    background-image: url("../img/football.jpg");
+    position: absolute;
+    background-size: 320px;
+    top:500px;
+    left: 200px;
+    animation-name: ball_roll;
+    animation-duration: 3.5s;
+}
+
+#topbar {
+    height:20px;
+    width:400px;
+    float: auto;
+}
+
+#leftbar{
+    width:20px;
+    height:170px;
+    float: left;
+}
+
+#rightbar{
+    width:20px;
+    height:150px;
+    float: right;
+}
+
+#anim_div:hover {
+    animation-name: bg_change;
+    animation-duration: 4s;
+}
