@@ -35,6 +35,8 @@ de un JSON con toda la información de los equipos y un API ([Country Flags API]
 
 En Tarea Ionic se encuentra el desarrollo de una app básica con alertas en Ionic, utilizando Angular, TypeScript y HTML + Sass.
 
-___
+## Eleos
 
-Y otras actividades a futuro. 
+En Eleos se encuentra el desarrollo de la aplicación a entregar a Fedesoft, con el objetivo de superar el reto de financiación a fundaciones en la localidad de La Candelaria, propuesto en las primeras clases del curso.
+
+___
